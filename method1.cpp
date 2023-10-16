@@ -23,7 +23,7 @@ int main() {
 		b = five(i);
 		xx.write((char*)&b, sizeof(int));
 	}
-	for (float i = -0.5; i <= 1.5; i = i + 0.5) {
+	for (float i = -0.5; i <= 0.5; i = i + 0.5) {
 		c = selfcomp(i);
 		xx.write((char*)&c, sizeof(float));
 	}
